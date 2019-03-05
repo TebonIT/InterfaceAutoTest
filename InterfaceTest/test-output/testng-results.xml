@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="接口测试" duration-ms="41" started-at="2019-03-05T08:07:48Z" finished-at="2019-03-05T08:07:48Z">
+    <groups>
+      <group name="demo1">
+        <method signature="TestCaces.testdeme2()[pri:2, instance:com.luowj.test.TestCaces@4c3e4790]" name="testdeme2" class="com.luowj.test.TestCaces"/>
+        <method signature="TestCaces.testdeme3()[pri:3, instance:com.luowj.test.TestCaces@4c3e4790]" name="testdeme3" class="com.luowj.test.TestCaces"/>
+        <method signature="TestCaces.testdemo1()[pri:1, instance:com.luowj.test.TestCaces@4c3e4790]" name="testdemo1" class="com.luowj.test.TestCaces"/>
+      </group> <!-- demo1 -->
+    </groups>
+    <test name="接口测试用例" duration-ms="41" started-at="2019-03-05T08:07:48Z" finished-at="2019-03-05T08:07:48Z">
+      <class name="com.luowj.test.TestCaces">
+        <test-method status="PASS" signature="testdemo1()[pri:1, instance:com.luowj.test.TestCaces@4c3e4790]" name="testdemo1" duration-ms="8" started-at="2019-03-05T16:07:48Z" finished-at="2019-03-05T16:07:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdemo1 -->
+        <test-method status="PASS" signature="testdeme3()[pri:3, instance:com.luowj.test.TestCaces@4c3e4790]" name="testdeme3" duration-ms="1" started-at="2019-03-05T16:07:48Z" finished-at="2019-03-05T16:07:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdeme3 -->
+        <test-method status="PASS" signature="testdeme2()[pri:2, instance:com.luowj.test.TestCaces@4c3e4790]" name="testdeme2" duration-ms="0" started-at="2019-03-05T16:07:48Z" finished-at="2019-03-05T16:07:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdeme2 -->
+      </class> <!-- com.luowj.test.TestCaces -->
+    </test> <!-- 接口测试用例 -->
+  </suite> <!-- 接口测试 -->
+</testng-results>

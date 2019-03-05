@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="1" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="接口测试" duration-ms="26" started-at="2019-03-05T06:42:03Z" finished-at="2019-03-05T06:42:03Z">
+    <groups>
+      <group name="demo1">
+        <method signature="TestCaces.testdeme2()[pri:2, instance:com.luowj.test.TestCaces@7c53a9eb]" name="testdeme2" class="com.luowj.test.TestCaces"/>
+        <method signature="TestCaces.testdeme3()[pri:3, instance:com.luowj.test.TestCaces@7c53a9eb]" name="testdeme3" class="com.luowj.test.TestCaces"/>
+        <method signature="TestCaces.testdemo1()[pri:1, instance:com.luowj.test.TestCaces@7c53a9eb]" name="testdemo1" class="com.luowj.test.TestCaces"/>
+      </group> <!-- demo1 -->
+    </groups>
+    <test name="接口测试用例" duration-ms="26" started-at="2019-03-05T06:42:03Z" finished-at="2019-03-05T06:42:03Z">
+      <class name="com.luowj.test.TestCaces">
+        <test-method status="FAIL" signature="testdemo1()[pri:1, instance:com.luowj.test.TestCaces@7c53a9eb]" name="testdemo1" duration-ms="8" started-at="2019-03-05T14:42:03Z" finished-at="2019-03-05T14:42:03Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[测试失败]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 测试失败
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.luowj.test.TestCaces.testdemo1(TestCaces.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at com.luowj.Application.main(Application.java:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdemo1 -->
+        <test-method status="PASS" signature="testdeme2()[pri:2, instance:com.luowj.test.TestCaces@7c53a9eb]" name="testdeme2" duration-ms="0" started-at="2019-03-05T14:42:03Z" finished-at="2019-03-05T14:42:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdeme2 -->
+        <test-method status="PASS" signature="testdeme3()[pri:3, instance:com.luowj.test.TestCaces@7c53a9eb]" name="testdeme3" duration-ms="0" started-at="2019-03-05T14:42:03Z" finished-at="2019-03-05T14:42:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdeme3 -->
+      </class> <!-- com.luowj.test.TestCaces -->
+    </test> <!-- 接口测试用例 -->
+  </suite> <!-- 接口测试 -->
+</testng-results>

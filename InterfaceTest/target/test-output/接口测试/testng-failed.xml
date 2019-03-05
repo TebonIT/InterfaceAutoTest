@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [接口测试]">
+  <listeners>
+    <listener class-name="com.luowj.config.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test name="接口测试用例(failed)">
+    <groups>
+      <run>
+        <include name="demo1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.luowj.test.TestCaces">
+        <methods>
+          <include name="testdemo1"/>
+        </methods>
+      </class> <!-- com.luowj.test.TestCaces -->
+    </classes>
+  </test> <!-- 接口测试用例(failed) -->
+</suite> <!-- Failed suite [接口测试] -->

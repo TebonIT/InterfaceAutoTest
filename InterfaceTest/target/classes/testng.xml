@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="接口测试">
+    <test name="接口测试用例">
+        <groups>
+
+            <define name="All">
+                <include name="demo1"/>
+                <include name="InterfaceTest"/>
+            </define>
+            <run>
+                <include name="demo1"/>
+            </run>
+
+        </groups>
+
+        <classes>
+            <class name="com.luowj.test.TestCaces">
+
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.luowj.config.ExtentTestNGIReporterListener">
+        </listener>
+    </listeners>
+
+</suite>
